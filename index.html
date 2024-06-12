@@ -4,7 +4,22 @@
     <title>Welcome to La Loteria!</title>
 </head>
 <body>
- <h1 id="PageTittle">Welcome to La Loteria 4.2.7</h1>
- <script src="./Redirector.js"></script
+    <h1 id="PageTittle">Welcome to La Loteria! 4.2.9</h1>
+    <p id="PageTittle2"><a href="loteria://party">Launch</a></p>
+    
+    <p><a href="loteria://party?Im So Close">Launch with Parameter</a></p>
+  
+    <script>
+        function isMobile() {
+            return /Android|iPhone/i.test(navigator.userAgent);
+        }
+        console.log(/Android/.test(navigator.userAgent));
+
+        console.log(isMobile());
+    </script>
+
+    <script src="./Redirector.js"></script
+
 </body>
+
 </html>
