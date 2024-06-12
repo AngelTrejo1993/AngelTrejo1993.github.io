@@ -13,6 +13,7 @@ function getMobileOperatingSystem() {
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         return "iOS";
     }
+    document.getElementsByClassName("PageTittle") = currentUrl;
 
     return "unknown";
 }
