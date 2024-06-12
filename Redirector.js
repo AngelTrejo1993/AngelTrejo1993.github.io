@@ -1,5 +1,5 @@
 const currentUrl = window.location.href;
-consol.log(currentUrl);
+console.log(currentUrl);
 function getMobileOperatingSystem() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if (/windows phone/i.test(userAgent)) {
