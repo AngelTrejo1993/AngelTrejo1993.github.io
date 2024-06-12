@@ -20,10 +20,12 @@ function getMobileOperatingSystem() {
 
 function TestPage(){
     const NewCurrentUrl = window.location.href;
+    document.getElementsByClassName("PageTittle") = currentUrl;
+    document.getElementsByClassName("PageTittle2") = NewCurrentUrl;
 
 console.log(NewCurrentUrl);
     if (currentUrl == NewCurrentUrl){
-        window.location.href = "https://apps.apple.com/us/app/la-loteria/id1456692257";
+        //window.location.href = "https://apps.apple.com/us/app/la-loteria/id1456692257";
     }
 }
     
