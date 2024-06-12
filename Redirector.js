@@ -13,15 +13,14 @@ function getMobileOperatingSystem() {
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         return "iOS";
     }
-    document.getElementsByClassName("PageTittle") = currentUrl;
 
     return "unknown";
 }
 
 function TestPage(){
     const NewCurrentUrl = window.location.href;
-    document.getElementsByClassName("PageTittle") = currentUrl;
-    document.getElementsByClassName("PageTittle2") = NewCurrentUrl;
+    document.getElementById("PageTittle").textContent = currentUrl;
+    document.getElementById("PageTittle2").textContent = NewCurrentUrl;
 
 console.log(NewCurrentUrl);
     if (currentUrl == NewCurrentUrl){
