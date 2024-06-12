@@ -19,8 +19,10 @@ function getMobileOperatingSystem() {
 }
 
 function TestPage(){
-console.log(currentUrl);
-    if (currentUrl == "http://192.168.0.131:5500/home.html"){
+    const NewCurrentUrl = window.location.href;
+
+console.log(NewCurrentUrl);
+    if (currentUrl == NewCurrentUrl"){
         window.location.href = "https://apps.apple.com/us/app/la-loteria/id1456692257";
     }
 }
