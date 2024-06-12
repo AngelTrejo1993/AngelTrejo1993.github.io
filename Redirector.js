@@ -22,7 +22,7 @@ function TestPage(){
     const NewCurrentUrl = window.location.href;
 
 console.log(NewCurrentUrl);
-    if (currentUrl == NewCurrentUrl"){
+    if (currentUrl == NewCurrentUrl){
         window.location.href = "https://apps.apple.com/us/app/la-loteria/id1456692257";
     }
 }
