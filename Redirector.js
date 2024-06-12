@@ -1,4 +1,6 @@
 const currentUrl = window.location.href;
+    document.getElementById("PageTittle").textContent = currentUrl;
+
 console.log(currentUrl);
 function getMobileOperatingSystem() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
@@ -19,7 +21,6 @@ function getMobileOperatingSystem() {
 
 function TestPage(){
     const NewCurrentUrl = window.location.href;
-    document.getElementById("PageTittle").textContent = currentUrl;
     document.getElementById("PageTittle2").textContent = NewCurrentUrl;
 
 console.log(NewCurrentUrl);
