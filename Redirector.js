@@ -31,7 +31,7 @@ console.log(NewCurrentUrl);
     
 
 if (getMobileOperatingSystem() == "iOS") {
-    try {window.location.href = "loteria://party";}
+    try {window.location.href = "loteria://party"+ document.location.search;}
       catch(err) { }
       setTimeout(()=>{TestPage()},
       3000);
