@@ -1,7 +1,5 @@
 const currentUrl = window.location.href;
-    document.getElementById("PageTittle").textContent = currentUrl;
 
-console.log(currentUrl);
 function getMobileOperatingSystem() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if (/windows phone/i.test(userAgent)) {
