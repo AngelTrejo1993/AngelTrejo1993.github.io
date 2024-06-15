@@ -36,5 +36,5 @@ if (getMobileOperatingSystem() == "iOS") {
 if (getMobileOperatingSystem() == "Android") {
     window.location.href = "loteria://party" + document.location.search;
     setTimeout(()=>{window.location.href = "https://play.google.com/store/apps/details/La_Loteria?id=com.HappyTimes.LaLoteriaA&hl=en_US";},
-5000);
+3000);
 }
